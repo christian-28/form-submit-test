@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact Form JS</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="container">
+  <form class="form" action="https://formsubmit.co/fbb47d9c9618bc68f330adb88a7abe20" method="POST">
+   <!-- HONEY POT -->
+   <input type="text" name="_honey" style="display: none;">
+
+   <!-- DISABLE CAPTCHA -->
+   <input type="hidden" name="_captcha" value="false">
+
+   <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
+
+   <input type="text" name="Name" placeholder="Name" required>
+   <input type="email" name="Email" placeholder="Email" required>
+   <textarea maxlength="100" name="Message" cols="10" rows="5" placeholder="Write your message here..."></textarea>
+   <button type="submit" class="submit">SUBMIT</button>
+  </form>
+ </div>
+</body>
+</html>
